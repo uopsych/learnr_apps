@@ -1,0 +1,23 @@
+---
+output:
+  html_document:
+    df_print: paged
+    includes:
+      in_header: test1.html
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+```{r demo, exercise = TRUE, exercise.lines = 8}
+
+```
+
+<div data-iframe-height></div>
